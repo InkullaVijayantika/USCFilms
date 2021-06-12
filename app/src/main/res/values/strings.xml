@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">USC Films</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Search</string>
+    <string name="title_notifications">Watchlist</string>
+    <string name="top"> Top-Rated</string>
+    <string name="vertical_ellipsis">&#8942;</string>
+    <string name="pop"> Popular </string>
+    <string name="movies_tab"> Movies </string>
+    <string name="tv_tab"> TV Shows </string>
+    <string name="star">\u2605</string>
+</resources>

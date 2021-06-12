@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorSplash"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackground">
+
+            <ImageView
+                android:id="@+id/cardimg"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                android:background="@color/colorSplash"
+                android:scaleType="fitXY"
+                android:clickable="true"
+                android:onClick="onClick"/>
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:background="@drawable/gradient" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="130dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="75dp">
+
+                <TextView
+                    android:id="@+id/mediaType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:text="text"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:paddingLeft="2dp"/>
+
+                <ImageView
+                    android:id="@+id/btnRemove"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="5dp"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:src="@drawable/remove_button_foreground"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:paddingRight="10dp"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </FrameLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

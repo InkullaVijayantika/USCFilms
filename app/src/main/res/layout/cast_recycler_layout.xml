@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:paddingRight="15dp"
+    android:paddingBottom="25dp"
+    android:background="@color/colorSplash"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/castcard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorSplash"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+<!--        <ImageView-->
+<!--            android:id="@+id/castimg"-->
+<!--            android:layout_width="130dp"-->
+<!--            android:layout_height="150dp"-->
+<!--            android:background="@color/colorSplash"-->
+<!--            android:scaleType="fitXY" />-->
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/castimg"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            app:civ_border_color="#FF000000"
+            android:background="@color/colorSplash"
+            android:src="@drawable/profile_path_placeholder"/>
+
+
+
+        <TextView
+            android:id="@+id/castname"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="115dp"
+            android:background="@color/colorSplash"
+            android:gravity="center"
+            android:text="Text"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
