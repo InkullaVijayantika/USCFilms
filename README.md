@@ -5,3 +5,5 @@
 ● Learn the essentials of Google’s Material design rules for designing Android apps.  
 ● Learn to use the TMDB API and the Android SDK.  
 ● Get familiar with third-party libraries for Android like Picasso, Glide, and Volley.  
+  
+Full Description [here](https://github.com/InkullaVijayantika/USCFilms-Android-App/blob/master/HW9_Android.pdf)
